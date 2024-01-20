@@ -10,8 +10,11 @@ function App() {
   return (
     <>
       <Navbar />
-      Hello Vite + React!
-      
+      <div className='flex h-screen items-center justify-center'>
+        <h1 className='text-4xl font-bold font-mono text-center text-gray-700'>
+          Hello  World By <span className='text-5xl' >MpK</span> Soon ....
+        </h1>
+      </div>
     </>
   )
 }
